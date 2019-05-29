@@ -1,0 +1,40 @@
+body {
+    text-align: right
+}
+
+.main-content-wrapper .header-area .amado-nav li.active a::after {
+    right: -75px
+}
+.main-content-wrapper .header-area .amado-nav li:hover a::after, .main-content-wrapper .header-area .amado-nav li:focus a::after {
+    right: -75px;
+}
+
+.main-content-wrapper .header-area .amado-nav li a::after {
+    right: -150px
+}
+.main-content-wrapper .header-area .amado-nav li a::after {
+    right: -150px;
+}
+
+.single-products-catagory .hover-content {
+    right: 40px;
+    left: auto
+}
+
+#scrollUp {
+    left: 60px;
+    right: auto
+}
+
+.more-less {
+    float: left
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .main-content-wrapper .header-area .amado-nav li.active a::after {
+        right: -50px
+    }
+    .main-content-wrapper .header-area .amado-nav li:hover a::after, .main-content-wrapper .header-area .amado-nav li:focus a::after {
+        right: -50px;
+    }
+}
